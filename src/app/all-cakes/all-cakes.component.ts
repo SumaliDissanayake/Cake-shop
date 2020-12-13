@@ -1,5 +1,12 @@
 import { Component, OnInit } from '@angular/core';
 
+
+
+
+
+
+
+
 @Component({
   selector: 'app-all-cakes',
   templateUrl: './all-cakes.component.html',
