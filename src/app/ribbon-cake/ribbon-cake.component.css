@@ -1,0 +1,33 @@
+.cakeGallery {
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    width: 60%;
+    flex-wrap: wrap;
+}
+
+.cakeCard {
+    display: flex;
+    flex-direction: column;
+    padding: .4rem;
+    background-color: #fff;
+    margin: .4rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    /* align-items: center; */
+}
+
+.cakeCard > h5, .cakeCard > p {
+    margin: .2rem 0;
+}
+
+
+.cardrow {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.cakeCard > h5, .cakeCard > p {
+    margin: .2rem 0;
+}

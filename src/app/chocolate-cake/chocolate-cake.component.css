@@ -1,0 +1,32 @@
+.cakeRow {
+    display: flex;
+    flex-direction: column;
+    margin: .4rem;
+    background-color: #fff;
+    padding: .4rem;
+    box-shadow: 0 2px 4px rgba(0,0,0, .3);
+    width: 45%;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    flex-basis: 60%;
+}
+
+.cakeRow > img {
+    align-self: center;
+    width: 50%;
+    
+}
+
+.cakeRow >div{
+    flex-grow: 2;
+    padding-left: 1rem;
+    text-align: center;
+   
+
+}
+
+.cakeRow h5 , .cakeRow p {
+    margin: 0;
+}
+

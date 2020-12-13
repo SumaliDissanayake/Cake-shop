@@ -1,0 +1,81 @@
+<!-- <div class="cakeGallery">
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/cherry-brandy.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Cherry Brandy Chocolate Cake</h5>
+            <small>1500</small>
+        </div>
+        <p>Cherry Brandy Chocolate Cake</p>
+    </div>
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/choco-fudge.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Chocolate Fudge Cake</h5>
+            <small>1500</small>
+        </div>
+        <p>Chocolate Fudge Cake</p>
+    </div>
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/chocolate-cake.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Chocolate Cake</h5>
+            <small>960</small>
+        </div>
+        <p>Chocolate Cake</p>
+    </div>
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/choco-mud.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Cheocolate Mud Cake</h5>
+            <small>1500</small>
+        </div>
+        <p>Cherry Brandy Chocolate Cake</p>
+    </div>
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/choco-muse.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Chocolate muse Cake</h5>
+            <small>1500</small>
+        </div>
+        <p>Chocolate muse Cake</p>
+    </div>
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/choco-nut.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Roasted Nut Chocolate Cake</h5>
+            <small>1500</small>
+        </div>
+        <p>Roasted Nut Chocolate Cake</p>
+    </div>
+
+    <div class="cakeCard">
+        <img src="../assets/images/choco/choco-swiss.webp" width="600px" height="300px"/>
+        <div>
+            <h5>Chocolate Swiss Role</h5>
+            <small>1500</small>
+        </div>
+        <p>Chocolate Swiss Role</p>
+    </div>
+
+</div> -->
+
+<div class="cakeRow" *ngFor="let cake of cakes">
+    <img src={{cake.url}}>
+
+    <div>
+        
+        <h5>{{cake.name}}</h5>
+        <p>{{cake.dis}}</p>
+        
+    </div>
+
+    <small class="price">{{cake.price | currency: 'RS '}}</small>
+    
+</div>
+

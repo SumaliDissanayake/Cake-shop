@@ -1,0 +1,16 @@
+.mainContent {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.cakeGallery {
+    display: flex;
+    flex-direction: column;
+    margin:1rem;
+    padding: .5rem;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, .3);
+    margin-left: 20px;
+}
